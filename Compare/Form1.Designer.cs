@@ -98,11 +98,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(325, 9);
+            this.label1.Location = new System.Drawing.Point(310, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 19);
+            this.label1.Size = new System.Drawing.Size(148, 19);
             this.label1.TabIndex = 10;
-            this.label1.Text = "Only Master List";
+            this.label1.Text = "Only In Master List";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -138,17 +138,17 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(476, 9);
+            this.label6.Location = new System.Drawing.Point(476, 8);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(134, 19);
+            this.label6.Size = new System.Drawing.Size(153, 19);
             this.label6.TabIndex = 10;
-            this.label6.Text = "Only Current List";
+            this.label6.Text = "Only In Current List";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(652, 9);
+            this.label4.Location = new System.Drawing.Point(655, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(108, 19);
             this.label4.TabIndex = 13;
@@ -172,7 +172,7 @@
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.Compare);
             this.Name = "Comparison";
-            this.Text = "Form1";
+            this.Text = "COMPARE";
             this.ResumeLayout(false);
             this.PerformLayout();
 
